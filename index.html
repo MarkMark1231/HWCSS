@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="https://kit.fontawesome.com/9e0688dbc3.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Work+Sans:wght@100&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        border: none;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            max-width: 1440px;
+            margin: auto;
+            padding: auto;
+        }
+
+        .wrapper {
+            text-align: center;
+        }
+
+        .wrapper_child {
+            display: inline-block;
+        }
+
+
+        nav {
+            width: 970px;
+            height: 80px;
+        }
+        
+        .head_nav {
+            display: inline;
+            width: 496px;
+            height: 30px;
+        }
+        
+        nav ul {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            list-style: none;
+            margin-top: 25px;
+        }
+
+        nav ul li{
+            color: gray;
+            font-weight: lighter;
+            font-size: 18px;
+            margin: 0 40px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #828282;
+        }
+
+        a:hover {
+            color: black;
+        }
+
+        .span_div {
+            width: 970px;
+            height: 1px;
+            background-color: #828282;
+            margin-top: 27.5px;
+        }
+
+        .title {
+            display: block;
+            text-align: left;
+        }
+
+        .title h1 {
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 65px;
+        }
+
+        .first_img {
+            padding-top: 50px;
+            height: 437px;
+        }
+
+        .about {
+            background-color: #F6F6F6;
+            padding: 100px 0px;
+        }
+
+        .about h2 {
+            font-weight: 700;
+            font-size: 38px;
+            line-height: 65px;  
+            padding-bottom: 50px;
+        }
+
+        .about h2 p {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 25px;
+            padding: 30px 0;
+        }
+
+        p {
+            padding: 30px 0;
+        }
+
+        .skills {
+            padding-top: 100px;
+            padding-bottom: 50px;
+        }
+
+        .skills_img {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            list-style: none;
+            width: 970px;
+            padding-bottom: 100px;
+        }
+
+        .sk_img {
+            width: 170px;
+            height: 230px;
+            margin: 0 0;
+        }
+
+        .skills_img .sk_img  {
+            margin: 0 46px;
+        }
+
+        .skills_img .sk_img span {
+            display: inline;
+        }
+
+        .portfolio {
+            background-color: #F6F6F6;
+        }
+
+        .portfolio h2 {
+            font-weight: 700;
+            font-size: 34px;
+            line-height: 46px;
+            padding-top: 100px;
+            padding-bottom: 50px;
+        }
+
+        .portfolio p {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 25px;
+            text-align: center;
+            text-decoration-line: underline;
+            padding-top: 40px;
+            padding-bottom: 70px;       
+        }
+
+        .foot h2 {
+            font-weight: 700;
+            font-size: 34px;
+            line-height: 46px;
+            padding-top: 100px;
+        }
+
+        .p_contacts {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 25px;    
+            padding-top: 20px;   
+            padding-bottom: 60px;   
+        }
+
+        button {
+            width: 180px;
+            height: 44px;
+            appearance: none;
+            border: 0;
+            border-radius: 22px;
+            background: #070707;
+            color: #fff;
+            padding: 0px 16px;  
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 25px;
+            text-align: center;   
+        }
+
+        .icons {
+            padding-top: 30px;
+        }
+
+        .fa-brands {
+            font-size: 40px;
+            margin: 0 25px;
+            padding-bottom: 60px;
+        }
+
+        .subtext {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 19px;
+            color: #828282;
+            padding-bottom: 100px;
+        }
+
+        .send_btn {
+            text-decoration: none;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .send_btn:hover {
+            color: #fff;
+        }
+
+        .a_icon {
+            color: #070707;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="wrapper_child">
+            <header class="header">
+                <nav id="1">
+                    <div class="head_nav">
+                        <ul>
+                            <li><a href="#1">Home</a></li>
+                            <li><a href="#2">About me</a></li>
+                            <li><a href="#3">Skills</a></li>
+                            <li><a href="#4">Portfolio</a></li>
+                            <li><a href="#5">Contacts</a></li>
+                        </ul>
+                        <div class="span_div"></div>
+                    </div>
+                </nav>
+            </header>
+            <main class="main">
+                <section class="title">
+                    <div class="name">
+                        <h1>Denis Novik</h1>
+                    </div>
+                    <div class="first_img">
+                        <img class="img_one" src="https://raw.githubusercontent.com/MarkMark1231/HWCSS/main/img/photo.jpg" alt="Denis Novik" width="970px" height="387px">
+                    </div>
+                </section>
+
+                <section id="2">
+                    <div class="about">
+                        <h2>About me</h2>
+                        <p>Hi, I'm Denis – UX/UI designer from Minsk. <br>I'm interested in design and everything connected with it.</p>
+                        <p>I'm studying at courses "Web and mobile design <br>interfaces" in IT-Academy.</p>
+                        <p>Ready to implement excellent projects <br>with wonderful people.</p>
+                    </div>
+        
+                </section>
+
+                <section id="3">
+                    <div class="skills">
+                        <h2>Skills</h2>
+                        <p>I work in such programs as</p>
+                    </div>
+                    
+                    <div class="skills_img"> 
+                        <div class="sk_img">
+                            <img src="https://raw.githubusercontent.com/MarkMark1231/HWCSS/main/img/Ps.png" alt="Photoshop" width="80px" height="80px">
+                            <p>Adobe <br> Photoshop</p>
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i> 
+                            </span>
+                        </div>
+                        <div class="sk_img">
+                            <img src="https://raw.githubusercontent.com/MarkMark1231/HWCSS/main/img/Ai.jpg" alt="Ilustrator" width="80px" height="80px">
+                            <p>Adobe <br> Ilustrator</p>
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i> 
+                            </span>
+                        </div>
+                        <div class="sk_img">
+                            <img src="https://raw.githubusercontent.com/MarkMark1231/HWCSS/main/img/Ae.png" alt="After Effects" width="80px" height="80px">
+                            <p>Adobe After Effects</p>
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </span>
+                        </div>
+                        <div class="sk_img">
+                            <img src="https://raw.githubusercontent.com/MarkMark1231/HWCSS/main/img/Figma.png" alt="figma" width="80px" height="80px">
+                            <p>Figma</p>
+                            <span>
+                                <br>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i> 
+                            </span>
+                        </div>
+                    </div>
+                </section>
+                <section id="4">
+                    <div class="portfolio">
+                        <h2>Portfolio</h2>
+                        <div class="portfolio_img">
+                            <div>
+                                <img src="https://raw.githubusercontent.com/MarkMark1231/HWCSS/main/img/Fashion-Store970.jpg" alt="fashion store" width="970px">
+                                <p>Online fashion store - Homepage</p>
+                            </div>
+                            <div>
+                                <img src="https://raw.githubusercontent.com/MarkMark1231/HWCSS/main/img/reebok_web970.png" alt="Reebok Store" width="970px">
+                                <p>Reebok Store - Concept</p>
+                            </div>
+                            <div>
+                                <img src="https://raw.githubusercontent.com/MarkMark1231/HWCSS/main/img/braun-landing.jpg" alt="Braun Landing Page" width="970px">
+                                <p>Braun Landing Page - Concept</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <footer id="5">
+                <div class="foot">
+                    <div>
+                        <h2>Contacts</h2>
+                        <p class="p_contacts">Want to know more or just chat? <br>You are welcome!</p>
+                        <button type="button" name="Send"><a class="send_btn" href="mailto:EMAILADDRESS">Send message</a></button>
+                    </div>
+                    <div class="icons">
+                        <span><a class="a_icon" href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></span>
+                        <span><a class="a_icon" href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a></span>
+                        <span><a class="a_icon" href="https://www.behance.net/" target="_blank"><i class="fa-brands fa-square-behance"></i></a></span>
+                        <span><a class="a_icon" href="https://dribbble.com/" target="_blank"><i class="fa-brands fa-dribbble"></i></a></span>
+                    </div>
+                    <div class="subtext">
+                        <p>Like me on <br>LinkedIn, Instagram, Behance, <br>Dribble</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
